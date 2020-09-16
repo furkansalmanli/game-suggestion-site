@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+   
+   
+  <head>
+                     
+    <script>
+      function myFunction(){
+        if(document.getElementById("headerval")!=null){
+        document.getElementById("mytitle").innerText= document.getElementById("headerval").value;
+  }
+     }
+     // Başlık değer verme fonksiyonu
+    </script>   
+    <title id="mytitle">Oyun Önerileri | Oyun İnceleme ve Öneri Platformu</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Oyun Önerileri sayfası içerisinde oyun incelemeleri, anime tavsiyeleri ve tür olarak birbirine benzer oyunların tavsiyeleri bulunmaktadır."/>
+    <meta name="keywords" content="oyun önerileri, oyun, anime tavsiyeleri, anime, oyun tavsiyeleri, oyun inceleme" />
+    <link rel="icon" href="%PUBLIC_URL%/Shield_Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="Furkan SALMANLI"/>
+    <meta name="theme-color" content="#000000" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Turkish">
+    <base href="%PUBLIC_URL%/" />
+   
+   
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
+
+
+<!-- ##### Google Analytics Kodları ##### -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175878549-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175878549-1');
+</script>
+
+
+    
+   
+  </head>
+  <body onload="myFunction()">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+     <!-- ##### ETİKELEME ##### -->
+     <footer class="footer-area">
+      <!-- LOGO -->
+      <div class="main-footer-area section-padding-100-0">
+          <div class="container">
+              <div class="row">
+                  <!-- ANAHTAR KELİMELER -->
+                  <div class="col-12 col-sm-6 col-lg-3">
+                      <div class="single-footer-widget mb-70 wow fadeInDown" data-wow-delay="700ms">
+                          <div class="widget-title">
+                              <a href="/"><img src="white_logo.png" alt="Oyun Önerileri" ></a>
+                          </div>
+                          <div class="widget-content">
+                            <nav>
+                              <div class="post-bottom-meta">
+                              <div class = "row">
+                                <span class="fa fa-tags" aria-hidden="true">
+                                  <a href="/gameCategories#Lord_of_the_Rings_Games"  rel="tag">The Lord of the Rings Oyunları</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                    <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Açık Dünya</a></span>
+                                    <span class="fa fa-tags" aria-hidden="true">
+                                      <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Oyun Önerileri</a></span>
+                                      <span class="fa fa-tags" aria-hidden="true">
+                                        <a href="/gameCategories#Indie_Games"  rel="tag">Bağımsız Yapımcı</a></span>
+                                        <span class="fa fa-tags" aria-hidden="true">
+                                          <a href="/gameCategories#Episodic_Games"  rel="tag">Episodic</a></span>
+                                          <span class="fa fa-tags" aria-hidden="true">
+                                            <a href="/#Recently_Viewed_Games"  rel="tag">Oyun İncelemeleri</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                              <a href="/gameCategories#Online_Games"  rel="tag">Online</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                                <a href="/gameCategories#Hack_and_Slash"  rel="tag">Hack and Slash</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                                  <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Tavsiyeler</a></span>
+                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                    <a href="/gameCategories#Fps_Gun_Action"  rel="tag">Silah Aksiyon</a></span>
+                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                      <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Oyun Önerisi</a></span>
+                                                      <span class="fa fa-tags" aria-hidden="true">
+                                                        <a href="/gameCategories#Episodic_Games"  rel="tag">Seçim Tabanlı</a></span>
+                                                        <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href="/gameCategories#Two_Player_Games"  rel="tag">İki Oyunculu</a></span>
+                                                         <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href="/gameCategories#Lineer_Gun_Action"  rel="tag">Çizgisel Silah Aksiyon</a></span>
+                                                          <span class="fa fa-tags" aria-hidden="true">
+                                                            <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Oyun</a></span>
+                                                            <span class="fa fa-tags" aria-hidden="true">
+                                                              <a href="/gameCategories#Horror_Games"  rel="tag">Korku Oyunları</a></span>
+                                                              <span class="fa fa-tags" aria-hidden="true">
+                                                                <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Kılıç Aksiyon</a></span>
+                                                                <span class="fa fa-tags" aria-hidden="true">
+                                                                  <a href="/#Recently_Viewed_Games"  rel="tag">Güncel Oyunlar</a></span>
+                                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                                    <a href="/gameCategories#Hack_and_Slash"  rel="tag">Saf Aksiyon</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                      <a href="/gameCategories#Lineer_Action"  rel="tag">Çizgisel Aksiyon</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                    <a href="/gameCategories#Lineer_Action"  rel="tag">Lineer Oyun</a></span>
+                                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                                 <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Oyun Kategorileri</a></span>
+                                                              <span class="fa fa-tags" aria-hidden="true">
+                                                             <a href="/metacritic"  rel="tag">Sıralama</a></span>
+                                                           <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href="/gameCategories#Fps_Gun_Action"  rel="tag">Fps Oyunları</a></span>
+                                                         <span class="fa fa-tags" aria-hidden="true">
+                                                         <a href="/gameCategories#Episodic_Games"  rel="tag">Hikayeli Oyun</a></span>
+                                                        <span class="fa fa-tags" aria-hidden="true">
+                                                       <a href="/metacritic"  rel="tag">Metacritic Sıralaması</a></span>
+                                                     <span class="fa fa-tags" aria-hidden="true">
+                                                    <a href="/gameCategories#Indie_Games"  rel="tag">Indie</a></span>
+                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                  <a href="/Thewitcher3_Acodyssey_Acorigins#The_Witcher3"  rel="tag">Benzer Oyunlar</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                               <a href="/metacritic"  rel="tag">Metacritic</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                             <a href="/gameCategories#Two_Player_Games"  rel="tag">Eğlenceli Oyunlar</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                          <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Öneriler</a></span>
+                                        <span class="fa fa-tags" aria-hidden="true">
+                                       <a href="/gameCategories#Open_World_Gun_Action"  rel="tag">Aksiyon Oyunları</a></span>
+                                     <span class="fa fa-tags" aria-hidden="true">
+                                   <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Sandbox</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                 <a href="/Halflife2_Metro2033_Metrolastlight#Half_Life2"  rel="tag">Steam Oyunları</a></span>
+                               <span class="fa fa-tags" aria-hidden="true">
+                              <a href="/#Metro_2033_Redux"  rel="tag">İnceleme</a></span>
+                            <span class="fa fa-tags" aria-hidden="true">
+                          <a href="/gameCategories#Open_World_Sword_Action"  rel="tag">Bilgisayar Oyunları</a></span>
+                        <span class="fa fa-tags" aria-hidden="true">
+                      <a href="/gameCategories#Two_Player_Games"  rel="tag">Co-op</a></span> 
+                    </div>
+                   </div>
+                  </nav>
+               </div>
+             </div>
+          </div>
+             <!--------------------------------- OYUN TAVSİYELERİ ETİKETLEME ----------------------------------------->
+                  <div class="col-12 col-sm-6 col-lg-6">
+                      <div class="single-footer-widget mb-70 wow fadeInDown" data-wow-delay="1000ms">
+                        <div class="center">
+                          <div class="widget-title">
+                              <h4 style="text-align:center;"><b>OYUN TAVSİYELERİ</b></h4>     
+                          </div>
+                        </div>
+                          <div class="widget-content">
+                            <nav>
+                              <div class="post-bottom-meta">
+                              <div class = "row">
+                                <span class="fa fa-tags" aria-hidden="true">
+                                  <a href="/Thewitcher3_Acodyssey_Acorigins#The_Witcher3"  rel="tag">The Witcher 3</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                    <a href="/Shadowofwar_Shadowofmordor_Acunity_Acbrotherhood#Assassins_Creed_Brotherhood"  rel="tag">Assassin's Creed Brotherhood</a></span>
+                                    <span class="fa fa-tags" aria-hidden="true">
+                                      <a href="/Vanquish_Specopstheline_Mafia2#Spec_Ops_The_Line"  rel="tag">Spec Ops</a></span>
+                                      <span class="fa fa-tags" aria-hidden="true">
+                                        <a href="/Doom_Superhot_Callofjuarez_Shadowwarrior#Doom"  rel="tag">DOOM</a></span>
+                                       <span class="fa fa-tags" aria-hidden="true">
+                                        <a href="/Shadowofwar_Shadowofmordor_Acunity_Acbrotherhood#Shadow_of_Mordor"  rel="tag">Shadow of Mordor</a></span>
+                                        <span class="fa fa-tags" aria-hidden="true">
+                                          <a href="/Thewitcher3_Acodyssey_Acorigins#Assassins_Creed_Origins"  rel="tag">Assassin's Creed Origins</a></span>
+                                          <span class="fa fa-tags" aria-hidden="true">
+                                            <a href="/Thestanleyparable_Firewatch_Lastdayofjune#The_Stanley_Parable"  rel="tag">The Stanley Parable</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                              <a href="/Shadowofwar_Shadowofmordor_Acunity_Acbrotherhood#Shadow_of_War"  rel="tag">Shadow of War</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                                <a href="/Shadowofwar_Shadowofmordor_Acunity_Acbrotherhood#Assassins_Creed_Unity"  rel="tag">Assassin's Creed Unity</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                                  <a href="/Farcry3_Dyinglight_Farcry4#Far_Cry3"  rel="tag">Far Cry 3</a></span>
+                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                    <a href="/Riseofthetombraider_Madmax_Batmanarkhamknight#Rise_of_the_Tomb_Raider"  rel="tag">Tomb Raider</a></span>
+                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                      <a href="/Doom_Superhot_Callofjuarez_Shadowwarrior#Shadow_Warrior"  rel="tag">Shadow Warrior</a></span>
+                                                      <span class="fa fa-tags" aria-hidden="true">
+                                                        <a href="/Farcry3_Dyinglight_Farcry4#Far_Cry4"  rel="tag">Far Cry 4</a></span>
+                                                        <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href="/Farcry3_Dyinglight_Farcry4#Dying_Light"  rel="tag">Dying Light</a></span>
+                                                          <span class="fa fa-tags" aria-hidden="true">
+                                                            <a href="/Sunsetoverdrive_Justcause3_Aot2#Just_Cause3"  rel="tag">Just Cause 3</a></span>
+                                                            <span class="fa fa-tags" aria-hidden="true">
+                                                              <a href="/Riseofthetombraider_Madmax_Batmanarkhamknight#Mad_Max"  rel="tag">Mad Max</a></span>
+                                                              <span class="fa fa-tags" aria-hidden="true">
+                                                                <a href="/Riseofthetombraider_Madmax_Batmanarkhamknight#Batman_Arkham_Knight"  rel="tag">Batman</a></span>
+                                                                <span class="fa fa-tags" aria-hidden="true">
+                                                                  <a href="/Overwatch_Smite_Battlerite#Overwatch"  rel="tag">Overwatch</a></span>
+                                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                                    <a href="/Overwatch_Smite_Battlerite#Battlerite"  rel="tag">Battlerite</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                      <a href="/Overwatch_Smite_Battlerite#Smite"  rel="tag">Smite</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                    <a href="/Undertale_Tothemoon_Abirdstory#Undertale"  rel="tag">Undertale</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                    <a href="/Battleformiddleearth2_Returnoftheking_Warinthenorth_Conquest#Lotr_Conquest"  rel="tag">Conquest</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                   <a href="/Inside_Layersoffear_Kholat#Layers_of_Fear"  rel="tag">Layers of Fear</a></span>
+                                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                                 <a href="/Vanquish_Specopstheline_Mafia2#Vanquish"  rel="tag">Vanquish</a></span>
+                                                              <span class="fa fa-tags" aria-hidden="true">
+                                                             <a href="/Callofduty4_Crysis2_Wolfensteintheoldblood#Call_of_Duty4"  rel="tag">Call of Duty 4</a></span>
+                                                           <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href="/Halflife2_Metro2033_Metrolastlight#Metro_2033"  rel="tag">Metro 2033</a></span>
+                                                        <span class="fa fa-tags" aria-hidden="true">
+                                                       <a href="/Hotlinemiami_Ruiner_Mrshifty#Mr_Shifty"  rel="tag">Mr. Shifty</a></span>
+                                                     <span class="fa fa-tags" aria-hidden="true">
+                                                    <a href="/Destiny2_Codadvancedwarfare_Codinfinitewarfare#Destiny2"  rel="tag">Destiny 2</a></span>
+                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                   <a href="/Inside_Layersoffear_Kholat#Kholat"  rel="tag">Kholat</a></span>
+                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                  <a href="/Doom_Superhot_Callofjuarez_Shadowwarrior#Superhot"  rel="tag">SUPERHOT</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                               <a href="/Doom_Superhot_Callofjuarez_Shadowwarrior#Call_of_Juarez_Gunslinger"  rel="tag">Call of Juarez</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                             <a href="/Destiny2_Codadvancedwarfare_Codinfinitewarfare#Cod_Advanced_Warfare"  rel="tag">Advanced Warfare</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                          <a href="/Halflife2_Metro2033_Metrolastlight#Metro_Last_Light"  rel="tag">Metro: Last Light</a></span>
+                                        <span class="fa fa-tags" aria-hidden="true">
+                                       <a href="/Callofduty4_Crysis2_Wolfensteintheoldblood#Wolfenstein_the_Old_Blood"  rel="tag">Wolfenstein</a></span>
+                                     <span class="fa fa-tags" aria-hidden="true">
+                                   <a href="/Destiny2_Codadvancedwarfare_Codinfinitewarfare#Cod_Infinite_Warfare"  rel="tag">Infinite Warfare</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                 <a href="/Dmcdevilmaycry_Metalgearrising_Prototype2_Lotrwarinthenorth#DmC_Devil_May_Cry"  rel="tag">Devil May Cry</a></span>
+                               <span class="fa fa-tags" aria-hidden="true">
+                              <a href="/Dmcdevilmaycry_Metalgearrising_Prototype2_Lotrwarinthenorth#Metal_Gear_Rising_Revengeance"  rel="tag">Metal Gear Rising</a></span>
+                            <span class="fa fa-tags" aria-hidden="true">
+                          <a href="/Darksiders_Castlevania_Darksiders2_Vikingswolvesofmidgard#Castlevania_Lords_of_Shadow"  rel="tag">Castlevania</a></span>
+                        <span class="fa fa-tags" aria-hidden="true">
+                      <a href="/Darksiders_Castlevania_Darksiders2_Vikingswolvesofmidgard#Darksiders"  rel="tag">Darksiders</a></span>
+                   <span class="fa fa-tags" aria-hidden="true">
+                 <a href="/Dmcdevilmaycry_Metalgearrising_Prototype2_Lotrwarinthenorth#Prototype2"  rel="tag">Prototype 2</a></span>
+                 <span class="fa fa-tags" aria-hidden="true">
+                 <a href="/Oriandtheblindforest_Gris_Transistor#Gris"  rel="tag">Gris</a></span>
+                 <span class="fa fa-tags" aria-hidden="true">
+                  <a href="/Darksiders_Castlevania_Darksiders2_Vikingswolvesofmidgard#Darksiders2"  rel="tag">Darksiders II</a></span>
+                  <span class="fa fa-tags" aria-hidden="true">
+                    <a href="/Darksiders_Castlevania_Darksiders2_Vikingswolvesofmidgard#Vikings_Wolves_of_Midgard"  rel="tag">Vikings</a></span>
+                    <span class="fa fa-tags" aria-hidden="true">
+                      <a href="/Dmcdevilmaycry_Metalgearrising_Prototype2_Lotrwarinthenorth#Lotr_War_in_the_North"  rel="tag">War in the North</a></span>
+                      <span class="fa fa-tags" aria-hidden="true">
+                        <a href="/Bioshockinfinite_Dishonored2_Thedarkness2#Dishonored2"  rel="tag">Dishonored 2</a></span>
+                        <span class="fa fa-tags" aria-hidden="true">
+                         <a href="/Inside_Layersoffear_Kholat#INSIDE"  rel="tag">INSIDE</a></span>
+                        <span class="fa fa-tags" aria-hidden="true">
+                         <a href="/Maxpayne3_Quantumbreak_Alanwake#Alan_Wake"  rel="tag">Alan Wake</a></span>
+                        <span class="fa fa-tags" aria-hidden="true">
+                          <a href="/Hellbladesenuassacrifice_Rysesonofrome_Forhonor#Hellblade"  rel="tag">Hellblade</a></span>
+                          <span class="fa fa-tags" aria-hidden="true">
+                            <a href="/Hellbladesenuassacrifice_Rysesonofrome_Forhonor#For_Honor"  rel="tag">For Honor</a></span>
+                            <span class="fa fa-tags" aria-hidden="true">
+                              <a href="/Portal2_Brothersataleoftwosons_Awayout#Portal2"  rel="tag">Portal 2</a></span>
+                             <span class="fa fa-tags" aria-hidden="true">
+                              <a href="/Hellbladesenuassacrifice_Rysesonofrome_Forhonor#Ryse_Son_of_Rome"  rel="tag">Ryse: Son of Rome</a></span>
+                              <span class="fa fa-tags" aria-hidden="true">
+                                <a href="/Bioshockinfinite_Dishonored2_Thedarkness2#Bioshock_Infinite"  rel="tag">BioShock Infinite</a></span>
+                                <span class="fa fa-tags" aria-hidden="true">
+                                  <a href="/Maxpayne3_Quantumbreak_Alanwake#Max_Payne3"  rel="tag">Max Payne 3</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                    <a href="/Bioshockinfinite_Dishonored2_Thedarkness2#The_Darkness2"  rel="tag">The Darkness II</a></span>
+                                    <span class="fa fa-tags" aria-hidden="true">
+                                      <a href="/Thestanleyparable_Firewatch_Lastdayofjune#Last_Day_of_June"  rel="tag">Last Day of June</a></span>
+                                      <span class="fa fa-tags" aria-hidden="true">
+                                        <a href="/Vanquish_Specopstheline_Mafia2#Mafia2"  rel="tag">Mafia II</a></span>
+                                        <span class="fa fa-tags" aria-hidden="true">
+                                          <a href="/Thewitcher3_Acodyssey_Acorigins#Assassins_Creed_Odyssey"  rel="tag">Assassin's Creed Odyssey</a></span>
+                                          <span class="fa fa-tags" aria-hidden="true">
+                                            <a href="/Maxpayne3_Quantumbreak_Alanwake#Quantum_Break"  rel="tag">Quantum Break</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                              <a href="/Undertale_Tothemoon_Abirdstory#To_the_Moon"  rel="tag">To the Moon</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                                <a href="/Wolfamongus_Lifeisstrange_Walkingdead_Batmantheenemywithin#The_Wolf_Among_Us"  rel="tag">The Wolf Among Us</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                                  <a href="/Wolfamongus_Lifeisstrange_Walkingdead_Batmantheenemywithin#Life_is_Strange"  rel="tag">Life is Strange</a></span>
+                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                    <a href="/Wolfamongus_Lifeisstrange_Walkingdead_Batmantheenemywithin#The_Walking_Dead"  rel="tag">The Walking Dead</a></span>
+                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                   <a href="/Thestanleyparable_Firewatch_Lastdayofjune#Firewatch"  rel="tag">Firewatch</a></span>
+                                                 <span class="fa fa-tags" aria-hidden="true">
+                                                <a href="/Wolfamongus_Lifeisstrange_Walkingdead_Batmantheenemywithin#Batman_The_Enemy_Within"  rel="tag">The Enemy Within</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                               <a href="/Oriandtheblindforest_Gris_Transistor#Ori_and_the_Blind_Forest"  rel="tag">Ori and the Blind Forest</a></span>
+                                               <span class="fa fa-tags" aria-hidden="true">
+                                              <a href="/Undertale_Tothemoon_Abirdstory#A_Bird_Story"  rel="tag">A Bird Story</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                            <a href="/Hotlinemiami_Ruiner_Mrshifty#Ruiner"  rel="tag">RUINER</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                           <a href="/Portal2_Brothersataleoftwosons_Awayout#Brothers_A_Tale_of_Two_Sons"  rel="tag">Brothers - A Tale of Two Sons</a></span>
+                                          <span class="fa fa-tags" aria-hidden="true">
+                                         <a href="/Mortalx_Injusticegodamongus_Ninjastorm#MortalX"  rel="tag">Mortal Kombat X</a></span>
+                                       <span class="fa fa-tags" aria-hidden="true">
+                                      <a href="/Sunsetoverdrive_Justcause3_Aot2#Sunset_Overdrive"  rel="tag">Sunset Overdrive</a></span>
+                                     <span class="fa fa-tags" aria-hidden="true">
+                                   <a href="/Oriandtheblindforest_Gris_Transistor#Transistor"  rel="tag">Transistor</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                <a href="/LEGO_Thelordoftherings_Marvelsuperheroes_Thehobbit#Lego_Lotr"  rel="tag">LEGO The Lord of the Rings</a></span>
+                               <span class="fa fa-tags" aria-hidden="true">
+                              <a href="/Mortalx_Injusticegodamongus_Ninjastorm#Injustice_Gods_Among_Us"  rel="tag">Injustice</a></span>
+                             <span class="fa fa-tags" aria-hidden="true">
+                            <a href="/LEGO_Thelordoftherings_Marvelsuperheroes_Thehobbit#Lego_Marvel"  rel="tag">Marvel</a></span>
+                           <span class="fa fa-tags" aria-hidden="true">
+                         <a href="/Callofduty4_Crysis2_Wolfensteintheoldblood#Crysis2"  rel="tag">Crysis</a></span>                                                        
+                       <span class="fa fa-tags" aria-hidden="true">
+                     <a href="/LEGO_Thelordoftherings_Marvelsuperheroes_Thehobbit#Lego_Hobbit"  rel="tag">The Hobbit</a></span>
+                   <span class="fa fa-tags" aria-hidden="true">
+                  <a href="/Battleformiddleearth2_Returnoftheking_Warinthenorth_Conquest#Bfme2"  rel="tag">Battle for Middle-Earth 2</a></span>
+                 <span class="fa fa-tags" aria-hidden="true">
+               <a href="/Hotlinemiami_Ruiner_Mrshifty#Hotline_Miami"  rel="tag">Hotline Miami</a></span>
+              <span class="fa fa-tags" aria-hidden="true">
+             <a href="/Portal2_Brothersataleoftwosons_Awayout#A_Way_Out"  rel="tag">A Way Out</a></span>
+            <span class="fa fa-tags" aria-hidden="true">
+           <a href="/Battleformiddleearth2_Returnoftheking_Warinthenorth_Conquest#Return_of_the_King"  rel="tag">The Lord of the Rings</a></span>
+          <span class="fa fa-tags" aria-hidden="true">
+         <a href="/Halflife2_Metro2033_Metrolastlight#Half_Life2"  rel="tag">Half-Life 2</a></span>
+       <span class="fa fa-tags" aria-hidden="true">
+      <a href="/Mortalx_Injusticegodamongus_Ninjastorm#Naruto_Ninja_Storm4"  rel="tag">Ninja Storm</a></span>                                              
+    <span class="fa fa-tags" aria-hidden="true">
+   <a href="/Sunsetoverdrive_Justcause3_Aot2#Attack_on_Titan2"  rel="tag">Attack on Titan 2</a></span>                                       
+   </div>                                             
+  </div>
+  </nav>
+ </div>
+ </div>
+</div>
+           <!--------------------------------- ANİME ÖNERİLERİ ETİKETLEME ----------------------------------------->
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-70 wow fadeInDown" data-wow-delay="1400ms">
+                        <div class="widget-title">
+                            <h4 style="text-align:center;"><b>ANİME ÖNERİLERİ</b></h4>
+                        </div>
+                        <div class="widget-content">
+                         
+                            <nav>
+                              <div class="post-bottom-meta">
+                              <div class = "row">
+                                <span class="fa fa-tags" aria-hidden="true">
+                                  <a href="/anime"  rel="tag">Fullmetal Alchemist</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                    <a href=/anime#Naruto  rel="tag">Naruto</a></span>
+                                    <span class="fa fa-tags" aria-hidden="true">
+                                      <a href=/anime#Hunter_x_Hunter  rel="tag">Hunter x Hunter</a></span>
+                                      <span class="fa fa-tags" aria-hidden="true">
+                                        <a href=/anime#Vinland_Saga  rel="tag">Vinland Saga</a></span>
+                                        <span class="fa fa-tags" aria-hidden="true">
+                                          <a href=/anime#Attack_on_Titan  rel="tag">Attack on Titan</a></span>
+                                          <span class="fa fa-tags" aria-hidden="true">
+                                            <a href=/anime  rel="tag">Anime Listesi</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                              <a href=/anime#Slam_Dunk  rel="tag">Slum Dunk</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                                <a href=/anime  rel="tag">Anime Tavsiyeleri</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                                  <a href=/anime#Naruto_Shippuden  rel="tag">Naruto Shippuuden</a></span>
+                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                    <a href=/anime#Boruto  rel="tag">Boruto</a></span>
+                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                      <a href=/anime#My_Hero_Acedemia  rel="tag">My Hero Academia</a></span>
+                                                      <span class="fa fa-tags" aria-hidden="true">
+                                                        <a href=/anime  rel="tag">Animeler</a></span>
+                                                        <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href=/anime#Your_Name  rel="tag">Your Name</a></span>
+                                                         <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href=/anime#One_Punch_Man  rel="tag">One Punch Man</a></span>
+                                                          <span class="fa fa-tags" aria-hidden="true">
+                                                            <a href=/anime#Kurokos_Basketball  rel="tag">Kuroko's Basketball</a></span>
+                                                            <span class="fa fa-tags" aria-hidden="true">
+                                                              <a href=/anime  rel="tag">Anime</a></span>
+                                                              <span class="fa fa-tags" aria-hidden="true">
+                                                                <a href=/anime#Saiki  rel="tag">The Disastrous Life of Saiki K.</a></span>
+                                                                <span class="fa fa-tags" aria-hidden="true">
+                                                                  <a href=/anime#God_Eater  rel="tag">God Eeater</a></span>
+                                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                                    <a href=/anime#The_Kings_Avatar  rel="tag">The King's Avatar</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                      <a href=/anime  rel="tag">Anime İncelemeleri</a></span>
+                                                                    <span class="fa fa-tags" aria-hidden="true">
+                                                                    <a href=/anime#Rock_Lee  rel="tag">Rock Lee </a></span>
+                                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                                 <a href=/anime#Castlevania  rel="tag">Castlevania</a></span>
+                                                              <span class="fa fa-tags" aria-hidden="true">
+                                                             <a href=/anime  rel="tag">Anime Tanıtımı</a></span>
+                                                           <span class="fa fa-tags" aria-hidden="true">
+                                                          <a href=/anime  rel="tag">IMDb</a></span>
+                                                         <span class="fa fa-tags" aria-hidden="true">
+                                                         <a href=/anime  rel="tag">Anime IMDb Puanları</a></span>
+                                                        <span class="fa fa-tags" aria-hidden="true">
+                                                       <a href=/anime#Aot_Junior_High  rel="tag">Attack on Titan: Junior High</a></span>
+                                                     <span class="fa fa-tags" aria-hidden="true">
+                                                    <a href=/anime#Code_Geass  rel="tag">Code Geass</a></span>
+                                                  <span class="fa fa-tags" aria-hidden="true">
+                                                  <a href=/anime#Vinland_Saga  rel="tag">Yeni Animeler</a></span>
+                                                <span class="fa fa-tags" aria-hidden="true">
+                                               <a href=/anime#Death_Note  rel="tag">Popüler Animeler</a></span>
+                                              <span class="fa fa-tags" aria-hidden="true">
+                                             <a href=/anime#Dororo  rel="tag">Dororo</a></span>
+                                            <span class="fa fa-tags" aria-hidden="true">
+                                          <a href=/anime#Death_Note  rel="tag">Death Note</a></span>
+                                        <span class="fa fa-tags" aria-hidden="true">
+                                       <a href=/anime  rel="tag">En İyi Animeler</a></span>
+                                     <span class="fa fa-tags" aria-hidden="true">
+                                   <a href=/anime#Saiki  rel="tag">Komik Animeler</a></span>
+                                  <span class="fa fa-tags" aria-hidden="true">
+                                 <a href=/anime#Overlord  rel="tag">Overlord</a></span>
+                               <span class="fa fa-tags" aria-hidden="true">
+                              <a href=/anime#Erased  rel="tag">Erased</a></span>
+                            <span class="fa fa-tags" aria-hidden="true">
+                          <a href=/anime#Your_Name  rel="tag">Sürükleyici Animeler</a></span>
+                
+                 
+                                                                                                                              
+                                 
+                                </div>
+                              
+                      
+                            </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- Single Footer Widget -->
+             
+
+         
+
+             
+
+                  
+              </div>
+
+          </div>
+
+      </div>
+     
+      <!-- Copywrite Area -->
+      <div class="copywrite-content">
+          <div class="container h-100">
+              <div class="row h-100 align-items-center">
+             
+                <div class="col-12 col-sm-2">
+                <span id="siteseal"><script async type="text/javascript" style="text-align:center;" src="https://seal.godaddy.com/getSeal?sealID=DdzFptG4RHPBsstzBgeBjMLRly6jDAJ1ZhNVYC8EeFzhTub5zrX5644xi9zo"></script></span>
+                 </div>
+                  <div class="col-12 col-sm-9">
+                 
+
+                      <!-- Copywrite Text -->
+                      <p class="copywrite-text" style="text-align:center;"><a href=/ >
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> |www.oyunonerileri.com| Tüm hakları saklıdır.
+                      
+                        </p> 
+                       
+                      
+                </div>
+
+            
+              </div>
+              
+          </div>
+      </div>
+  </footer>
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script src= "%PUBLIC_URL%/vendor/jquery/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
